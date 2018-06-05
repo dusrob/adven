@@ -1,0 +1,12 @@
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_NULLS ON
+GO
+CREATE PROC [dbo].[testproc2]
+ AS
+SELECT 
+ address AS ad
+
+FROM
+dbo.Table_2
+GO
